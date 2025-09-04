@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width",initial-scale=1.0">
+        <title>To-Do List Form</title>
+ 
+</head>
+    <body> 
+        {% with messages = get_flashed_messages(category_filter=["error"]) %}
+        {% if messages %}
+            <ul style="color: red;">
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+        <H2 class="centered">To-Do Page</H2>
+        <div class="centered">
+            <form action="/submittodoitem" method="POST">
+                <label for="itemName">Item Name</label>
+                <input type="text" name="itemName" id="itemName" placeholder="Enter the Item name" value="{{ form_data.itemName if form_data else '' }}" required>                
+                <br/>
+                <label for="itemDescription">Item Description</label>
+                <input type="text" name="itemDescription" id="itemDescription" placeholder="Enter the Item Description." value="{{ form_data.itemDescription if form_data else '' }}" required>
+                <br/>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+    <style>
+        body{
+            background-color:whitesmoke;
+        }
+        p{
+            text-align: center;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+		.centered{
+		margin: auto;
+		width: 50%;
+		border: 3px solid darkgray;
+		padding:10px;
+		}
+    </style>
+
+    </html>
