@@ -7,7 +7,7 @@ import pymongo
 load_dotenv()
 MONGO_URI = os.getenv('MONGO_URI')
 client = pymongo.MongoClient(MONGO_URI)
-db = client.flask_todo_DB             
+db = client.flask_todo_DB
 collection = db['flask_todo_collection']
 
 app = Flask(__name__)
