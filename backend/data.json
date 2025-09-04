@@ -1,0 +1,21 @@
+{
+  "api_context": "Registration_API",
+  "data": [
+    {
+      "name": "Manish Mishra",
+      "password": "1234"
+    },
+    {
+      "name": "Manish Mishra Testing Microservice",
+      "password": "1234"
+    },
+    {
+      "name": "Testing Front end and Backend",
+      "password": "389593u340893483503958"
+    },
+    {
+      "name": "Rishi",
+      "password": "3492023343493982982340"
+    }
+  ]
+}
