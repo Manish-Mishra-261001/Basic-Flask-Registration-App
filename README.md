@@ -1,0 +1,2 @@
+# Basic-Flask-Registration-App
+#This is an application where Flask framework has been used. This is a registration form where code is devided into back end and front end section using python language and for database mongodb has been used.
