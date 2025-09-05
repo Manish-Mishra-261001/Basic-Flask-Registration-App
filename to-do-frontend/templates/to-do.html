@@ -27,6 +27,15 @@
                 <label for="itemDescription">Item Description</label>
                 <input type="text" name="itemDescription" id="itemDescription" placeholder="Enter the Item Description." value="{{ form_data.itemDescription if form_data else '' }}" required>
                 <br/>
+                <label for="itemID">Item ID</label>
+                <input type="text" name="itemID" id="itemID" placeholder="Enter the Item ID." value="{{ form_data.itemID if form_data else '' }}" required>
+                <br/>
+                <label for="itemUUID">Item UUID</label>
+                <input type="text" name="itemUUID" id="itemUUID" placeholder="Enter the item UUID." value="{{ form_data.itemUUID if form_data else '' }}" required>
+                <br/>
+                <label for="itemHash">Item Hash</label>
+                <input type="text" name="itemHash" id="itemHash" placeholder="Enter the item Hash." value="{{ form_data.itemHash if form_data else '' }}" required>
+                <br/>
                 <input type="submit" value="Submit">
             </form>
         </div>
