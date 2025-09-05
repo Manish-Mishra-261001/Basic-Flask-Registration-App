@@ -21,7 +21,7 @@ def submit():
     
     return redirect(url_for('success'))
 
-@app.route('/success
+@app.route('/success')
 def success():
     return render_template('success.html')  # This will show "Data submitted successfully"
 
