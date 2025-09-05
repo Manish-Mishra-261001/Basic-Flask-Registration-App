@@ -1,0 +1,30 @@
+[33mcommit 65663c7d449507d3b884a8448497827b026c4680[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Merge: 6b7693f 68ba0bc
+Author: Manish <manish.mishra.261001@gmail.com>
+Date:   Thu Sep 4 22:03:47 2025 +0530
+
+    Changes in data.json for Merge conflict resolution
+
+[33mcommit 6b7693f650a431ba4bd4ceac56e728214e867e67[m
+Author: Manish <manish.mishra.261001@gmail.com>
+Date:   Thu Sep 4 21:46:19 2025 +0530
+
+    .
+
+[33mcommit 68ba0bcef5014b1740d6c6d1c71c0bb5f2e95812[m[33m ([m[1;32mManish_new[m[33m)[m
+Author: Manish <manish.mishra.261001@gmail.com>
+Date:   Thu Sep 4 21:36:03 2025 +0530
+
+    data.json file Modified
+
+[33mcommit e46d99cfe95e0bb9af3ffb0081543f991edb05af[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mManish[m[33m)[m
+Author: Manish <manish.mishra.261001@gmail.com>
+Date:   Thu Sep 4 19:21:41 2025 +0530
+
+    Backend and Frontend Code Added
+
+[33mcommit 9f5b9043e270e5dccdf387b2bc40900303b5c927[m
+Author: Manish <manish.mishra.261001@gmail.com>
+Date:   Thu Sep 4 19:11:55 2025 +0530
+
+    README.md Added
