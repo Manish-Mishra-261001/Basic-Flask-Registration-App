@@ -27,6 +27,9 @@
                 <label for="itemDescription">Item Description</label>
                 <input type="text" name="itemDescription" id="itemDescription" placeholder="Enter the Item Description." value="{{ form_data.itemDescription if form_data else '' }}" required>
                 <br/>
+                <label for="itemId">Item ID</label>
+                <input type="text" name="itemId" id="itemId" placeholder="Enter the Item Id." value="{{ form_data.itemId if form_data else '' }}" required>
+                <br/>
                 <input type="submit" value="Submit">
             </form>
         </div>
